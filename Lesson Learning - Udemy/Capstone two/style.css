@@ -1,0 +1,46 @@
+.fs-4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+.logo {
+  height: 5vh;
+}
+
+.gradient-background {
+  background: linear-gradient(200deg, #f9f54b, #3f979b, #205e61);
+  background-size: 200% 200%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.profile,
+.website-img {
+  border-radius: 100%;
+}
+
+.featured-websites {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+/* #ef8172 */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
