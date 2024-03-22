@@ -36,3 +36,21 @@ function twoBeepers() {
   putBeeper();
   move();
 }
+
+function main() {
+  putBeeper();
+  moveUp();
+  turnRight();
+  moveUp();
+  turnRight();
+  moveUp();
+  turnRight();
+  moveUp();
+}
+
+function moveUp() {
+  move();
+  turnLeft();
+  move();
+  putBeeper();
+}
