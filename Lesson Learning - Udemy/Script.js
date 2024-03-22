@@ -1,6 +1,13 @@
 function main() {
   twoRows();
   turnRight();
+  move();
+  turnRight();
+  twoRows();
+  turnRight();
+  move();
+  turnRight();
+  threeBeepers();
 }
 
 function twoRows() {
