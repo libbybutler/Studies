@@ -150,3 +150,19 @@ var bmi = bmiCalculator(65, 1.8);
 bmi should equal 20 when it's rounded to the nearest whole number.
 
 */
+
+var n = Math.random();
+n = n * 100;
+n = Math.floor(n) + 1;
+console.log(n);
+
+console.log(
+  firstPerson +
+    " and " +
+    secondPerson +
+    " have the capatability of:" +
+    Math.round(n)
+);
+
+var firstName = prompt("What is your name?");
+var secondName = prompt("What is your parners name?");
