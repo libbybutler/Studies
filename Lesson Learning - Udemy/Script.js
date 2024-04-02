@@ -166,3 +166,31 @@ console.log(
 
 var firstName = prompt("What is your name?");
 var secondName = prompt("What is your parners name?");
+
+function isLeap(year) {
+  /**************Don't change the code above****************/
+
+  //Write your code here.
+  var leapYearFour = year % 4;
+  var leapYearOnehundred = year % 100;
+  var leapYearFourhundred = year % 400;
+
+  console.log(leapYearFour, leapYearFourhundred, leapYearOnehundred);
+
+  if (
+    (leapYearFour === 0) &
+    (leapYearOnehundred === 0) &
+    (leapYearFourhundred === 0)
+  ) {
+    return "Leap year";
+  } else {
+    return "Not Leap Year";
+  }
+
+  /**************Don't change the code below****************/
+}
+isLeap(2100);
+
+// A year is a leap year if it is evenly divisible by 4 ;
+// except if that year is also evenly divisible by 100;
+// unless that year is also evenly divisible by 400.
