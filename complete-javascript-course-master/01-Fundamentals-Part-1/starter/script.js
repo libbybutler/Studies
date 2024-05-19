@@ -110,17 +110,80 @@ console.log(jonasNew); */
 
 // ----------------------------------
 
-const hasDriversLicense = true;
-const hasGoodVision = false;
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
 
-console.log(hasDriversLicense || hasGoodVision);
-console.log(hasDriversLicense && hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
-if (shouldDrive) {
-  console.log(`Sarah is able to drive!`);
-} else {
-  console.log(`Someone else should drive...`);
+// if (shouldDrive) {
+//   console.log(`Sarah is able to drive!`);
+// } else {
+//   console.log(`Someone else should drive...`);
+// }
+
+// const isTired = true;
+// console.log(hasDriversLicense || hasGoodVision || isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log(`Sarah is able to drive!`);
+// } else {
+//   console.log(`Someone else should drive...`);
+// }
+
+// --------------------------------
+
+// CHALLENGE #3
+// There are two gymnastics teams: Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
+
+// Your tasks:
+
+// 1. Calculate the average score for each team, using the test data included below. The average score for Dolphins should be assigned to the scoreDolphins variable, and the average score of Koalas should be assigned to the scoreKoalas variable.
+
+// 2. Compare the team's average scores to determine the winner of the competition, and print to the console:
+
+// "Dolphins win the trophy" if Dolphins win, or
+
+// "Koalas win the trophy" if Koalas win, or
+
+// "Both win the trophy" if their average scores are equal.
+
+// TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
+
+// const scoreDolphines = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphines, scoreKoalas);
+
+// if (scoreDolphines > scoreKoalas) {
+//   console.log(`Dolphines win the trophy`);
+// } else if (scoreKoalas > scoreDolphines) {
+//   console.log(`Koalas win the trophy`);
+// } else {
+//   console.log(`Both win the trophy`);
+// }
+
+const day = `friday`;
+switch (day) {
+  case `monday`:
+    console.log(`Plan course structure`);
+    console.log(`Go to coding meetup`);
+    break;
+  case `tuesday`:
+    console.log(`prepare theory videos`);
+    break;
+  case `wednesday`:
+  case `thursday`:
+    console.log(`write code examples`);
+    break;
+  case `friday`:
+    console.log(`record videos`);
+    break;
+  case `saturday`:
+  case `sunday`:
+    console.log(`enjoy the weekend`);
+  default:
+    console.log(`not a valid day`);
 }
