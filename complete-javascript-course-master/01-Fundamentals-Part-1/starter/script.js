@@ -97,10 +97,15 @@ console.log(jonasNew); */
 
 // ------------------------------------------------
 
-const inputYear = "1991";
-console.log(Number(inputYear));
-console.log(Number(inputYear) + 18);
+// const inputYear = "1991";
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
 
-console.log(String(23));
+// console.log(String(23));
 
 // ----------------------------------------------------
+
+// const age = 18;
+// if (age === 18) console.log(`you just became an adult`);
+
+// ----------------------------------
