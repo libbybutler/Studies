@@ -171,3 +171,31 @@
 // console.log(ages);
 
 // -------------------------
+
+// const friends = [`charlotte`, `Aaron`, `Paula`];
+// const newLength = friends.push(`Jay`);
+
+// console.log(friends);
+// console.log(newLength);
+
+// friends.unshift(`john`);
+// console.log(friends);
+
+// friends.shift();
+
+// console.log(friends);
+
+// console.log(friends.indexOf(`Paula`));
+
+// console.log(friends.includes(`Paula`));
+
+// ---------------------------
+
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+
+// console.log(bills, tips);
