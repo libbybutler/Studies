@@ -199,3 +199,11 @@
 // const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 
 // console.log(bills, tips);
+
+const jonas = {
+  firstname: `jonas`,
+  lastName: `Schmedtmann`,
+  age: 2027 - 1991,
+  job: `teacher`,
+  friends: [`michael`, `peter`, `steven`],
+};
