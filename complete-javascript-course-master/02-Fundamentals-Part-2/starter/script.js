@@ -200,12 +200,90 @@
 
 // console.log(bills, tips);
 
-const jonas = {
-  firstname: `jonas`,
-  lastName: `Schmedtmann`,
-  age: 2027 - 1991,
-  job: `teacher`,
-  friends: [`michael`, `peter`, `steven`],
-};
+// const jonas = {
+//   firstName: `jonas`,
+//   lastName: `Schmedtmann`,
+//   age: 2027 - 1991,
+//   job: `teacher`,
+//   friends: [`michael`, `peter`, `steven`],
+// };
 
-console.log(jonas.lastName);
+// console.log(jonas.lastName);
+// console.log(jonas[`lastName`]);
+
+// const nameKey = `Name`;
+// console.log(jonas[`first` + nameKey]);
+// console.log(jonas[`last` + nameKey]);
+
+// const interestedIn = prompt(
+//   `what do you want to know about jonas? Choose between firstName, lastName, age, job, and friends`
+// );
+
+// if (jonas[interestedIn]) {
+//   console.log(jonas[interestedIn]);
+// } else {
+//   console.log(`Sorry but we do not know this about Jonas yet`);
+// }
+
+// jonas.location = `Portugal`;
+// jonas[`twitter`] = `@jonasschmedtman`;
+
+// console.log(jonas);
+
+// console.log(
+//   jonas.firstName +
+//     ` has ` +
+//     jonas.friends.length +
+//     ` friends ` +
+//     `and his best friend is ` +
+//     jonas.friends[0]
+// );
+
+// console.log(
+//   `${jonas.firstName} has ${jonas.friends.length} friends and his best friend is ${jonas.friends[0]}`
+// );
+
+// let randomNumbers = `pdfsdj`;
+// randomNumbers.charAt(4);
+// console.log(randomNumbers.charAt(4));
+
+// let houseNumber = `555`;
+// let streetName = `Shady Lane`;
+// console.log(houseNumber.concat(` `, streetName));
+
+// let typeOfTree = `pine`;
+// console.log(typeOfTree.indexOf(`e`));
+
+// let vowelsList = `a,e,i,o,u`;
+// console.log(vowelsList.split(`,`));
+// console.log(vowelsList);
+
+// let phoneNumber = `313-555-1234`;
+// console.log(phoneNumber.substring(12, 4));
+// console.log(phoneNumber.slice(4, 12));
+
+// const calcAge = (birthYear) => 2024 - birthYear;
+// console.log(calcAge(1999));
+
+// (birthYear) => 2024 - birthYear;
+// birthYear(1999);
+
+// let score = 90;
+
+// if (score >= 80) {
+//   console.log(`congratulations, you passed`);
+// } else if (score >= 50 && score < 80) {
+//   console.log(`Well done, you have an average score`);
+// } else {
+//   console.log(`you did not pass on this occassion, please try again`);
+// }
+
+// const age = 15;
+// const drink = age >= 18 ? `wine🍷` : `water 💦`;
+// console.log(`i like to drink ${drink}`);
+
+// const year = new Array(1991, 2024, 2000, 2015);
+// console.log(year[2]);
+// year[2];
+
+for 
