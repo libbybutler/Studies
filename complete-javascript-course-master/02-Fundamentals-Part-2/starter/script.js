@@ -286,4 +286,24 @@
 // console.log(year[2]);
 // year[2];
 
-for 
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weights repetition ${rep} 🏋️`);
+// }
+
+// for (let XP = 1; XP <= 100; XP = XP + 1) {
+//   console.log(`XP = ${XP}%`);
+
+//   if (XP === 1) {
+//     console.log(`You begin to build Experience`);
+//   } else if (XP === 25) {
+//     console.log(`Youre nearly half way`);
+//   } else if (XP === 50) {
+//     console.log(`Youve reached half way`);
+//   } else if (XP === 75) {
+//     console.log(`Experience level nearly completed`);
+//   } else if (XP === 100) {
+//     console.log(`Next level achieved!`);
+//   } else {
+//     console.log(`You continue Learning!`);
+//   }
+// }
