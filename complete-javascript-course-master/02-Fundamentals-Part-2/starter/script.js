@@ -318,14 +318,14 @@ const jonas = [
 ];
 const types = [];
 
-for (let i = 0; i < jonas.length; i++) {
-  console.log(jonas[i], typeof jonas[i]);
+// for (let i = 0; i < jonas.length; i++) {
+//   console.log(jonas[i], typeof jonas[i]);
 
-  // types[i] = typeof jonas[i];
-  types.push(typeof jonas[i]);
-}
+//   // types[i] = typeof jonas[i];
+//   types.push(typeof jonas[i]);
+// }
 
-console.log(types);
+// console.log(types);
 
 // const years = [2000, 1999, 2010, 1970, 1995];
 // const ages = [];
@@ -334,3 +334,15 @@ console.log(types);
 //   ages.push(2024 - years[i]);
 // }
 // console.log(ages);
+
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] !== `string`) continue;
+
+  console.log(jonas[i], typeof jonas[i]);
+}
+
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] === `number`) break;
+
+  console.log(jonas[i], typeof jonas[i]);
+}
