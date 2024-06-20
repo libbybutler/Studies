@@ -326,3 +326,11 @@ for (let i = 0; i < jonas.length; i++) {
 }
 
 console.log(types);
+
+// const years = [2000, 1999, 2010, 1970, 1995];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(2024 - years[i]);
+// }
+// console.log(ages);
